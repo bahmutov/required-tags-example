@@ -13,7 +13,7 @@ jobs:
     # https://github.com/bahmutov/cypress-workflows
     uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
     with:
-      env: 'grepTags=@nightly'
+      envs: 'grepTags=@nightly'
 # jobs:
 #   cypress-run:
 #     runs-on: ubuntu-22.04
