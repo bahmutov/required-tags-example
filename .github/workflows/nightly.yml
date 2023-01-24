@@ -5,6 +5,10 @@ on:
   schedule:
     # run these tests every day
     - cron: '0 23 * * *'
+
+env:
+  DEBUG: cy-grep,@cypress/github-action
+
 jobs:
   test:
     uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
