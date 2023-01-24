@@ -5,13 +5,15 @@ on:
   schedule:
     # run these tests every day
     - cron: '0 23 * * *'
-
-env:
-  DEBUG: cy-grep,@cypress/github-action
-
 jobs:
-  test:
-    uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
-    with:
-      # pass Cypress.env variable --env
-      env: 'grepTags=@scrape'
+  cypress-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
+        with:
+          env: 'grepTags=@scrape'
