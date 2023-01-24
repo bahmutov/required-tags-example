@@ -1,4 +1,4 @@
-# required-tags-example [![ci](https://github.com/bahmutov/required-tags-example/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/required-tags-example/actions/workflows/ci.yml)
+# required-tags-example [![ci](https://github.com/bahmutov/required-tags-example/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/required-tags-example/actions/workflows/ci.yml) [![scrape](https://github.com/bahmutov/required-tags-example/actions/workflows/scrape.yml/badge.svg?branch=main)](https://github.com/bahmutov/required-tags-example/actions/workflows/scrape.yml) [![nightly](https://github.com/bahmutov/required-tags-example/actions/workflows/nightly.yml/badge.svg?branch=main)](https://github.com/bahmutov/required-tags-example/actions/workflows/nightly.yml)
 
 > Example using [@bahmutov/cy-grep](https://github.com/bahmutov/cy-grep) with required tags
 
