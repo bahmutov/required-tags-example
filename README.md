@@ -2,6 +2,8 @@
 
 > Example using [@bahmutov/cy-grep](https://github.com/bahmutov/cy-grep) with required tags
 
+Read the blog post 📝 [Required Tags](https://glebbahmutov.com/blog/required-tags/).
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2023
