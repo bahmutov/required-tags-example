@@ -3,4 +3,6 @@ on: [push]
 jobs:
   test:
     uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
-    env: CYPRESS_grepTags=@scrape
+    with:
+      # pass Cypress.env variable --env
+      env: grepTags=@scrape

@@ -1,4 +1,4 @@
-# required-tags-example
+# required-tags-example [![ci](https://github.com/bahmutov/required-tags-example/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/required-tags-example/actions/workflows/ci.yml)
 
 > Example using [@bahmutov/cy-grep](https://github.com/bahmutov/cy-grep) with required tags
 
