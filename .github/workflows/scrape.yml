@@ -12,4 +12,4 @@ jobs:
     # https://github.com/bahmutov/cypress-workflows
     uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
     with:
-      envs: grepTags=@scrape
+      env: grepTags=@scrape
