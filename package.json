@@ -1,0 +1,27 @@
+{
+  "name": "required-tags-example",
+  "version": "1.0.0",
+  "description": "Example using @bahmutov/cy-grep with required tags",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/required-tags-example.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/required-tags-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/required-tags-example#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0",
+    "prettier": "^2.8.3"
+  }
+}
