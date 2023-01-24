@@ -13,6 +13,7 @@ jobs:
     # https://github.com/bahmutov/cypress-workflows
     uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
     with:
+      debug-inputs: true
       envs: 'grepTags=@nightly'
 # jobs:
 #   cypress-run:
