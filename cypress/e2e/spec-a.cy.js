@@ -3,5 +3,5 @@
 describe('spec A', () => {
   it('works', () => {})
 
-  it('works some more', () => {})
+  it('works some more', { tags: '@smoke' }, () => {})
 })

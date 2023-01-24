@@ -1,2 +1,2 @@
-// import registerCypressGrep from '@bahmutov/cy-grep/src/support'
-// registerCypressGrep()
+import registerCypressGrep from '@bahmutov/cy-grep/src/support'
+registerCypressGrep()
